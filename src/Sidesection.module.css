@@ -1,0 +1,54 @@
+.sidesection{
+    width:100%;
+}
+.title{
+    font-size: 48px;
+    font-weight:600;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.para{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.sectionheading{
+    font-size: 28px;
+    margin-bottom:8px;
+}
+.productimage{
+    width:100%;
+    max-width:80px;
+    border:2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.selectedproduct{
+    border:2px solid teal;
+}
+.features{
+    background-color:lightgray;
+    padding: 12px 24px;
+    border:none;
+    border-radius: 8px;
+    min-width: 80px;
+    margin-right: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    box-sizing: content-box;
+    text-align: center;
+}
+.selectedbutton{
+    color:white;
+    background-color: gray;
+}
+.bigbutton{
+    color:white;
+    background-color: teal;
+    font-size: 20px;
+    margin-top: 20px;
+    padding:12px 24px;
+    border-radius: 8px;
+    border:none;
+}

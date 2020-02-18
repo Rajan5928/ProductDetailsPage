@@ -1,0 +1,37 @@
+.productpreview{
+    width:100%;
+    position: relative;
+}
+.productpreview > img{
+    width:100%;
+}
+.timedata{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.heartdata{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.heartdata > i{
+    color: red;
+    animation: beat 1s infinite;
+}
+@keyframes beat{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1.5,1.5);
+    }
+}
